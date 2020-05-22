@@ -11,7 +11,7 @@ var app = express();
 dotenv.load();
 
 // MAKE SURE TO SET YOUR HEROKU CONFIG VARIABLES BEFORE RUNNING THE SERVER LIKE THIS
-heroku config:set CLIENT_CALLBACK_URL=spoton://callback
+heroku config:set CLIENT_CALLBACK_URL=musicdate://callback
 heroku config:set CLIENT_ID= 664025ea74204787a6b87a3bef5cb1ba
 heroku config:set CLIENT_SECRET= b30b1efe70244a01ad02609601b96f18
 heroku config:set ENCRYPTION_SECRET=mcrobpoint123!
